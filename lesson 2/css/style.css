@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+#header{
+    border: 1px solid red;
+    height: 850px;
+    background: gray url('../img/iStock_90924617_MEDIUM.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.header-navbar{
+    background: rgba(255, 255, 255, .7);
+}
+.navbar-nav{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo{
+    width: 150px;
+}
+.navbar-logo img{
+    width: 150px;
+}
+.navbar-links{
+    margin: auto 0px;
+}
+.navbar-links ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+.navbar-links ul li{
+    list-style: none;
+    padding: 50px 15px;
+    cursor: pointer;
+    transition: 200ms linear;
+    box-sizing: border-box;
+}
+.navbar-links ul li:hover{
+    border-bottom: 3px solid green;
+    color: green;
+    box-sizing: border-box;
+}
+.header-slider{
+    border: 1px solid blue;
+}
