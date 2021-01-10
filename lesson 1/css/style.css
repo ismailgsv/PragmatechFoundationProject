@@ -44,7 +44,7 @@ body{
     align-items: center;
 }
 .navbar-link li{
-    padding: 35px 20px;
+    padding: 31px 20px;
     cursor: pointer;
 }
 .navbar-link li:hover{
@@ -77,6 +77,9 @@ body{
     text-align: center;
     box-sizing: border-box;
 }
+.courses-header h2{
+    padding-top: 30px;
+}
 .courses-body{
     width: 1170px;
     margin: auto;
@@ -105,8 +108,9 @@ body{
     height: 200px;
     object-fit: cover;
 }
-h3{
+.courses-item h3{
     padding: 0px 20px;
+    padding-top: 10px;
     text-align: left;
 }
 .social{
@@ -133,6 +137,7 @@ h3{
     width: 1170px;
     margin: auto;
     text-align: center;
+    margin-bottom: 30px;
 }
 .btn{
     padding: 10px 30px;
@@ -151,29 +156,32 @@ h3{
     padding: 30px 0px;
 }
 .price-items{
-    padding: 20px;
+    padding: 40px 20px;
     box-sizing: border-box;
     min-height: 500px;
     background: white;
     border-radius: 5px;
 }
 /* button classes */
-.btn{
+.btnn{
     padding: 10px 30px;
-    transition: all .5s linear;
+    transition: all .3s linear;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
 }
-.btn-light{
+.btnn-light{
     background: lightgray;
 }
-.btn-dark{
+.btnn-dark{
     background: hotpink;
     color: white;
 }
-.btn-dark:hover{
+.btnn-dark:hover{
     background: rgb(143, 10, 76);
     color: white;
 }
-.btn-normal:hover{
+.btnn-light:hover{
     background-color: hotpink;
     color: white;
 }
@@ -192,4 +200,36 @@ h3{
 }
 .active-item .price-items{
     min-height: 550px;
+}
+.price-items ul li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 12px 0px;
+    border-bottom: 1px solid rgb(255, 206, 231);
+}
+.price-items h3{
+    margin: 0px;
+    padding: 0px;
+    color: hotpink;
+}
+.price-items ul{
+    color: rgb(179, 179, 179);
+}
+.price-items p{
+    color: gray;
+}
+.price-text{}
+.price-text h1{
+    color: hotpink;
+    font-size: 50px;
+}
+.price-text h1 sup{
+    color: hotpink;
+    font-size: 27px;
+}
+.price-text h1 span{
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
 }

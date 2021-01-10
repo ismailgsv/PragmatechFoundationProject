@@ -5,6 +5,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ body, h1, h2, h3, h4, ul{
+     margin: 0px;
+     padding: 0px;
+ }
 @-ms-viewport {
     width: device-width;
 }
