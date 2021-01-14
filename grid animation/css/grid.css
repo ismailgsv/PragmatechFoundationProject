@@ -25,6 +25,7 @@ html {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 576px) {
@@ -67,6 +68,7 @@ html {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  width: 100%;
 }
 
 .no-gutters {
