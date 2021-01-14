@@ -19,11 +19,13 @@ body{
     padding: 15px;
     background: white;
     box-shadow: 0px 0px 5px lightgray;
+    transition: all .5s linear;
 }
 .image{
     height: 250px;
     position: relative;
     overflow: hidden;
+    transition: all .5s linear;
 }
 .blog-date{
     position: absolute;
@@ -47,6 +49,7 @@ body{
     top: 0px;
     left: 0px;
     z-index: 2;
+    transition: all .5s linear;
 }
 .image-icon{
     width: 100%;
@@ -58,17 +61,20 @@ body{
     font-size: 1.5em;
     color: white;
     opacity: 0;
+    transition: all .5s linear;
 }
 img{
     width: 100%;
     height: 250px;
     object-fit: cover;
     z-index: 1;
+    transition: all .5s linear;
 }
 h3{
     font-size: 18px;
     color: #2980b9;
     margin: 30px 0px;
+    transition: all .5s linear;
 }
 .blog-item:hover h3{
     color: #002741;
@@ -136,11 +142,7 @@ h3{
         display: flex;
         flex-wrap: wrap;
     }
-    .row{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     .col-4{
         width: calc((100%/1) - 30px);
         margin: auto;
@@ -155,11 +157,7 @@ h3{
         display: flex;
         flex-wrap: wrap;
     }
-    .row{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     .col-4{
         width: calc((100%/2) - 30px);
         margin: auto;
@@ -174,11 +172,7 @@ h3{
         display: flex;
         flex-wrap: wrap;
     }
-    .row{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+  
     .col-4{
         width: calc((100%/2) - 30px);
         margin: auto;
@@ -193,11 +187,7 @@ h3{
         display: flex;
         flex-wrap: wrap;
     }
-    .row{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+   
     .col-4{
         width: calc((100%/3) - 30px);
         margin: auto;
@@ -211,11 +201,7 @@ h3{
         display: flex;
         flex-wrap: wrap;
     }
-    .row{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
     .col-4{
         width: calc((100%/3) - 30px);
         margin: auto;
