@@ -1,0 +1,70 @@
+.carousel-item{
+    height: 670px;
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    h3{
+        font-weight: 700;
+        font-size: 22px;
+        color: $font-color-dark;
+        span{
+            color: $main-color;
+        }
+    }
+    p{
+        font-weight: 700;
+        font-size: 48px;
+        color: $font-color-dark;
+    }
+    .btn{
+        background: $font-color-dark;
+        border: 0px;
+        font-weight: 700;
+        font-size: 14px;
+        padding: .8rem 1.5rem;
+        &:hover{
+            background: $main-color;
+        }
+    }
+}
+.carousel-control-prev{
+    width: 5%;
+    left: -100px;
+    opacity: 100%;
+    transition: all 0.5s ease;
+    .prev-icon{
+        color:white;
+        font-size: 40px;
+        transition: all 0.3s ease;
+        &:hover{
+            color: $main-color;
+        }
+    }
+}
+.carousel-control-next{
+    width: 5%;
+    right: -100px;
+    opacity: 100%;
+    transition: all 0.5s ease;
+    .next-icon{
+        color:white;
+        font-size: 40px;
+        transition: all 0.3s ease;
+        &:hover{
+            color: $main-color;
+        }
+    }
+}
+
+.carousel{
+    &:hover{
+        .carousel-control-prev{
+            left: 0px;
+        }
+        .carousel-control-next{
+            right: 0px;
+        }
+    }
+}

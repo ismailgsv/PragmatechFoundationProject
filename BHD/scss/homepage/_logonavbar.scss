@@ -1,0 +1,32 @@
+.logonavbar{
+    background: white;
+    a{
+        color: $font-color-dark;
+        font-size: 16px;
+        font-weight: 400;
+        transition: all 0.3s ease;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    i{
+        font-size: 18px;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    .shopbag{
+        span{
+            font-size: 14px;
+            &:hover{
+                color: $main-color;
+            }
+        }
+    }
+    .navright{
+        .line{
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+}

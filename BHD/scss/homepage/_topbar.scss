@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background: $background-color;
+}
+
+.contacts{
+    font-size: 14px;
+    font-weight: 300;
+    align-items: center;
+    i, a, span{
+        color: $font-color;
+    }
+}
+
+.saletopbar{
+    font-size: 14px;
+    font-weight: 300;
+    p, u, span{
+        color: $font-color;
+        align-items: center;
+    }
+    .btn{
+        font-weight: 700;
+        background: $main-color;
+        border: 0px;
+        &:hover{
+            background: $main-color-lighten;
+            color: $main-color;
+        }
+    }
+}
+
+.socialmedia{
+    a, ul, li{
+        color: $font-color;
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: 300;
+        align-items: center;
+    }
+    .bi{
+        font-size: 17px;
+        &:hover{
+            color: $main-color;
+        }
+    }
+}
