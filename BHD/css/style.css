@@ -2,11 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
+#bhdTopNavbar .navbar {
   background: #f5f5f5;
 }
 
-.contacts {
+#bhdTopNavbar .contacts {
   font-size: 14px;
   font-weight: 300;
   -webkit-box-align: center;
@@ -14,34 +14,34 @@ body {
           align-items: center;
 }
 
-.contacts i, .contacts a, .contacts span {
+#bhdTopNavbar .contacts i, #bhdTopNavbar .contacts a, #bhdTopNavbar .contacts span {
   color: #666;
 }
 
-.saletopbar {
+#bhdTopNavbar .saletopbar {
   font-size: 14px;
   font-weight: 300;
 }
 
-.saletopbar p, .saletopbar u, .saletopbar span {
+#bhdTopNavbar .saletopbar p, #bhdTopNavbar .saletopbar u, #bhdTopNavbar .saletopbar span {
   color: #666;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.saletopbar .btn {
+#bhdTopNavbar .saletopbar .btn {
   font-weight: 700;
   background: #802c81;
   border: 0px;
 }
 
-.saletopbar .btn:hover {
+#bhdTopNavbar .saletopbar .btn:hover {
   background: #eac2ea;
   color: #802c81;
 }
 
-.socialmedia a, .socialmedia ul, .socialmedia li {
+#bhdTopNavbar .socialmedia a, #bhdTopNavbar .socialmedia ul, #bhdTopNavbar .socialmedia li {
   color: #666;
   list-style-type: none;
   font-size: 14px;
@@ -51,19 +51,19 @@ body {
           align-items: center;
 }
 
-.socialmedia .bi {
+#bhdTopNavbar .socialmedia .bi {
   font-size: 17px;
 }
 
-.socialmedia .bi:hover {
+#bhdTopNavbar .socialmedia .bi:hover {
   color: #802c81;
 }
 
-.logonavbar {
+#bhdNavBar .logonavbar {
   background: white;
 }
 
-.logonavbar a {
+#bhdNavBar .logonavbar a {
   color: #1a1a1a;
   font-size: 16px;
   font-weight: 400;
@@ -71,59 +71,67 @@ body {
   transition: all 0.3s ease;
 }
 
-.logonavbar a:hover {
+#bhdNavBar .logonavbar a:hover {
   color: #802c81;
 }
 
-.logonavbar i {
+#bhdNavBar .logonavbar i {
   font-size: 18px;
 }
 
-.logonavbar i:hover {
+#bhdNavBar .logonavbar i:hover {
   color: #802c81;
 }
 
-.logonavbar .shopbag span {
+#bhdNavBar .logonavbar .shopbag span {
   font-size: 14px;
 }
 
-.logonavbar .shopbag span:hover {
+#bhdNavBar .logonavbar .shopbag span:hover {
   color: #802c81;
 }
 
-.logonavbar .navright .line {
+#bhdNavBar .logonavbar .navright .line {
   font-size: 20px;
   font-weight: 300;
 }
 
-.carousel-item {
+#bhdSlider .carousel-fade:hover .carousel-control-prev {
+  left: 0px;
+}
+
+#bhdSlider .carousel-fade:hover .carousel-control-next {
+  right: 0px;
+}
+
+#bhdSlider .carousel-fade .carousel-item {
   height: 670px;
 }
 
-.carousel-item img {
+#bhdSlider .carousel-fade .carousel-item img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
-.carousel-item h3 {
+#bhdSlider .carousel-fade .carousel-item h3 {
   font-weight: 700;
   font-size: 22px;
   color: #1a1a1a;
 }
 
-.carousel-item h3 span {
+#bhdSlider .carousel-fade .carousel-item h3 span {
   color: #802c81;
 }
 
-.carousel-item p {
+#bhdSlider .carousel-fade .carousel-item p {
   font-weight: 700;
   font-size: 48px;
   color: #1a1a1a;
 }
 
-.carousel-item .btn {
+#bhdSlider .carousel-fade .carousel-item .btn {
   background: #1a1a1a;
   border: 0px;
   font-weight: 700;
@@ -131,11 +139,11 @@ body {
   padding: .8rem 1.5rem;
 }
 
-.carousel-item .btn:hover {
+#bhdSlider .carousel-fade .carousel-item .btn:hover {
   background: #802c81;
 }
 
-.carousel-control-prev {
+#bhdSlider .carousel-fade .carousel-control-prev {
   width: 5%;
   left: -100px;
   opacity: 100%;
@@ -143,18 +151,18 @@ body {
   transition: all 0.5s ease;
 }
 
-.carousel-control-prev .prev-icon {
+#bhdSlider .carousel-fade .carousel-control-prev .prev-icon {
   color: white;
   font-size: 40px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-.carousel-control-prev .prev-icon:hover {
+#bhdSlider .carousel-fade .carousel-control-prev .prev-icon:hover {
   color: #802c81;
 }
 
-.carousel-control-next {
+#bhdSlider .carousel-fade .carousel-control-next {
   width: 5%;
   right: -100px;
   opacity: 100%;
@@ -162,22 +170,123 @@ body {
   transition: all 0.5s ease;
 }
 
-.carousel-control-next .next-icon {
+#bhdSlider .carousel-fade .carousel-control-next .next-icon {
   color: white;
   font-size: 40px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-.carousel-control-next .next-icon:hover {
+#bhdSlider .carousel-fade .carousel-control-next .next-icon:hover {
   color: #802c81;
 }
 
-.carousel:hover .carousel-control-prev {
-  left: 0px;
+#bhdTrendingProducts .card-img-top {
+  height: 300px;
+  border-radius: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.carousel:hover .carousel-control-next {
-  right: 0px;
+#bhdTrendingProducts .sale {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: 700;
+  padding: 0px 10px;
+  background: #802c81;
+  color: white;
+  font-size: 14px;
+}
+
+#bhdTrendingProducts .shop {
+  position: absolute;
+  top: 10px;
+  right: -50px;
+  background: white;
+  padding: 0.3rem 0.55em;
+  color: #1a1a1a;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#bhdTrendingProducts .shop:hover {
+  background: #802c81;
+  color: white;
+}
+
+#bhdTrendingProducts .quickview {
+  position: absolute;
+  top: 60px;
+  right: -50px;
+  background: white;
+  padding: 0.3rem 0.55em;
+  color: #1a1a1a;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#bhdTrendingProducts .quickview:hover {
+  background: #802c81;
+  color: white;
+}
+
+#bhdTrendingProducts .container {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+#bhdTrendingProducts .container h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#bhdTrendingProducts .container span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#bhdTrendingProducts .card {
+  border-radius: 0px;
+  border: 0px;
+}
+
+#bhdTrendingProducts .card:hover .shop {
+  right: 10px;
+}
+
+#bhdTrendingProducts .card:hover .quickview {
+  right: 10px;
+}
+
+#bhdTrendingProducts .card h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+#bhdTrendingProducts .card span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#bhdTrendingProducts .card {
+  overflow: hidden;
+}
+
+#bhdTrendingProducts .carousel-control-prev {
+  width: 5%;
+  left: 10px;
+  opacity: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#bhdTrendingProducts .carousel-control-next {
+  width: 5%;
+  right: 10px;
+  opacity: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 /*# sourceMappingURL=style.css.map */

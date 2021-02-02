@@ -1,0 +1,105 @@
+#bhdTrendingProducts{
+    .card-img-top{
+        height: 300px;
+        border-radius: 0px;
+        object-fit: cover;
+    }
+    .sale{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-weight: 700;
+        padding: 0px 10px;
+        background: $main-color;
+        color: white;
+        font-size: 14px;
+    }
+    .shop{
+        position: absolute;
+        top: 10px;
+        right: -50px;
+        background: white;
+        padding: 0.3rem 0.55em;
+        color: $font-color-dark;
+        transition: all 0.5s ease;
+        &:hover{
+            background: $main-color;
+            color: white;
+        }
+    }
+    .quickview{
+        position: absolute;
+        top: 60px;
+        right: -50px;
+        background: white;
+        padding: 0.3rem 0.55em;
+        color: $font-color-dark;
+        transition: all 0.5s ease;
+        &:hover{
+            background: $main-color;
+            color: white;
+        }
+    }
+    .container{
+        margin-top: 80px;
+        margin-bottom: 10px;
+        h3{
+            font-size: 28px;
+            font-weight: 700;
+        }
+        span{
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+    .card{
+        &:hover .shop{
+            right: 10px;
+        }
+        &:hover .quickview{
+            right: 10px;
+        }
+        border-radius: 0px;
+        border: 0px;
+        h5{
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+        span{
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    .card{
+        overflow: hidden;
+    }
+    .carousel-control-prev{
+        width: 5%;
+        left: 10px;
+        opacity: 100%;
+        transition: all 0.5s ease;
+        // .prev-icon{
+        //     color:white;
+        //     font-size: 40px;
+        //     transition: all 0.3s ease;
+        //     &:hover{
+        //         color: $main-color;
+        //     }
+        // }
+    }
+    .carousel-control-next{
+        width: 5%;
+        right: 10px;
+        opacity: 100%;
+        transition: all 0.5s ease;
+        // .next-icon{
+        //     color:white;
+        //     font-size: 40px;
+        //     transition: all 0.3s ease;
+        //     &:hover{
+        //         color: $main-color;
+        //     }
+        // }
+    }
+}
