@@ -102,4 +102,30 @@
         //     }
         // }
     }
+    .carousel-multi-item{
+        &:hover .carousel-control-prev{
+            opacity: 1;
+        }
+        &:hover .carousel-control-next{
+            opacity: 1;
+        }
+        .carousel-control-prev{
+            color: $font-color-dark;
+            left: -60px;
+            opacity: 0;
+            height: 80%;
+            &:hover{
+                color: $main-color;
+            }
+        }
+        .carousel-control-next{
+            color: $font-color-dark;
+            right: -60px;
+            opacity: 0;
+            height: 80%;
+            &:hover{
+                color: $main-color;
+            }
+        }
+    }
 }

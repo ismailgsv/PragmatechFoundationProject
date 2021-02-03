@@ -1,5 +1,6 @@
 #bhdSlider{
     .carousel-fade{
+        overflow: hidden;
         &:hover{
             .carousel-control-prev{
                 left: 0px;

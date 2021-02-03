@@ -96,6 +96,10 @@ body {
   font-weight: 300;
 }
 
+#bhdSlider .carousel-fade {
+  overflow: hidden;
+}
+
 #bhdSlider .carousel-fade:hover .carousel-control-prev {
   left: 0px;
 }
@@ -288,5 +292,35 @@ body {
   opacity: 100%;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+#bhdTrendingProducts .carousel-multi-item:hover .carousel-control-prev {
+  opacity: 1;
+}
+
+#bhdTrendingProducts .carousel-multi-item:hover .carousel-control-next {
+  opacity: 1;
+}
+
+#bhdTrendingProducts .carousel-multi-item .carousel-control-prev {
+  color: #1a1a1a;
+  left: -60px;
+  opacity: 0;
+  height: 80%;
+}
+
+#bhdTrendingProducts .carousel-multi-item .carousel-control-prev:hover {
+  color: #802c81;
+}
+
+#bhdTrendingProducts .carousel-multi-item .carousel-control-next {
+  color: #1a1a1a;
+  right: -60px;
+  opacity: 0;
+  height: 80%;
+}
+
+#bhdTrendingProducts .carousel-multi-item .carousel-control-next:hover {
+  color: #802c81;
 }
 /*# sourceMappingURL=style.css.map */
