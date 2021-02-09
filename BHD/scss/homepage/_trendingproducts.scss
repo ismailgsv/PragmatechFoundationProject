@@ -79,28 +79,12 @@
         left: 10px;
         opacity: 100%;
         transition: all 0.5s ease;
-        // .prev-icon{
-        //     color:white;
-        //     font-size: 40px;
-        //     transition: all 0.3s ease;
-        //     &:hover{
-        //         color: $main-color;
-        //     }
-        // }
     }
     .carousel-control-next{
         width: 5%;
         right: 10px;
         opacity: 100%;
         transition: all 0.5s ease;
-        // .next-icon{
-        //     color:white;
-        //     font-size: 40px;
-        //     transition: all 0.3s ease;
-        //     &:hover{
-        //         color: $main-color;
-        //     }
-        // }
     }
     .carousel-multi-item{
         &:hover .carousel-control-prev{

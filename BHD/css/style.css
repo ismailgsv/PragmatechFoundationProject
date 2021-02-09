@@ -323,4 +323,50 @@ body {
 #bhdTrendingProducts .carousel-multi-item .carousel-control-next:hover {
   color: #802c81;
 }
+
+#collectionproducts .banneritem {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+#collectionproducts .banneritem .discount {
+  height: 350px;
+  width: 100%;
+  position: relative;
+}
+
+#collectionproducts .banneritem .discount:hover .effect-animation {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#collectionproducts .banneritem .discount img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+#collectionproducts .banneritem .discount .effect-animation {
+  margin: auto;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+  z-index: 5;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
 /*# sourceMappingURL=style.css.map */
